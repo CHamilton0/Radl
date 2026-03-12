@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+console = { version = "0.16", features = ["std"] }
 reqwest = { version = "0.13", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
 select = { version = "0.6.1" }
+rust-bert = { version = "0.23" } 
+tch = { version = "0.17" } 
+anyhow = { version = "1" } 
